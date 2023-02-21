@@ -10,7 +10,7 @@
 		1A35717699716883CDF00F93 /* Pods_Exercise_Book.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0199DC6E3B0BD0DA1CC90A11 /* Pods_Exercise_Book.framework */; };
 		EE5E59F629A38FB50071F016 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5E59F529A38FB50071F016 /* AppDelegate.swift */; };
 		EE5E59F829A38FB50071F016 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5E59F729A38FB50071F016 /* SceneDelegate.swift */; };
-		EE5E5A0029A38FB50071F016 /* Exercise_Book.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE5E59FE29A38FB50071F016 /* Exercise_Book.xcdatamodeld */; };
+		EE5E5A0029A38FB50071F016 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE5E59FE29A38FB50071F016 /* DataModel.xcdatamodeld */; };
 		EE5E5A0229A38FB70071F016 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE5E5A0129A38FB70071F016 /* Assets.xcassets */; };
 		EE5E5A0529A38FB70071F016 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE5E5A0329A38FB70071F016 /* LaunchScreen.storyboard */; };
 		EEC61D8529A39B0E0091EFF3 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC61D8329A398550091EFF3 /* TableViewController.swift */; };
@@ -90,7 +90,6 @@
 				EE5E5A0329A38FB70071F016 /* LaunchScreen.storyboard */,
 				EE5E5A0129A38FB70071F016 /* Assets.xcassets */,
 				EE5E5A0629A38FB70071F016 /* Info.plist */,
-				EE5E59FE29A38FB50071F016 /* Exercise_Book.xcdatamodeld */,
 			);
 			path = "Exercise Book";
 			sourceTree = "<group>";
@@ -114,6 +113,7 @@
 		EEC61D8029A390900091EFF3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				EE5E59FE29A38FB50071F016 /* DataModel.xcdatamodeld */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -216,7 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEC61D8529A39B0E0091EFF3 /* TableViewController.swift in Sources */,
-				EE5E5A0029A38FB50071F016 /* Exercise_Book.xcdatamodeld in Sources */,
+				EE5E5A0029A38FB50071F016 /* DataModel.xcdatamodeld in Sources */,
 				EE5E59F629A38FB50071F016 /* AppDelegate.swift in Sources */,
 				EE5E59F829A38FB50071F016 /* SceneDelegate.swift in Sources */,
 			);
@@ -430,13 +430,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		EE5E59FE29A38FB50071F016 /* Exercise_Book.xcdatamodeld */ = {
+		EE5E59FE29A38FB50071F016 /* DataModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				EE5E59FF29A38FB50071F016 /* Exercise_Book.xcdatamodel */,
 			);
 			currentVersion = EE5E59FF29A38FB50071F016 /* Exercise_Book.xcdatamodel */;
-			path = Exercise_Book.xcdatamodeld;
+			path = DataModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
